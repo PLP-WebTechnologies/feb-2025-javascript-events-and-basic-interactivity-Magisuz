@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemstones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The World of Gemstones!</h1>
+        <p>Click button to learn more about rare gemstones.</p>
+        <!-- Move the button here -->
+        <button id="showDetailsButton">Show  Details of Rare Gemstones</button>
+    </header>
+
+    <section id="content">
+        <div id="concepts">
+            <h2>Rare Gemstones</h2>
+            <ul>
+                <li id="Painite">About Painite</li>
+                <li id="Tanzanite">About Tanzanite</li>
+                <li id="Hibonite">About Hibonite</li>
+            </ul>
+        </div>
+        
+        <div id="details"></div>
+        
+        <form id="feedbackForm">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" required>
+            <button type="submit">Submit Feedback</button>
+        </form>
+        <div id="formFeedback"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
